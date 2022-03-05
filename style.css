@@ -1,0 +1,31 @@
+
+.etch-a-sketch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: 5px;
+    border-style: dashed;
+    padding: 10px;
+    margin: 100px;
+}
+
+.grid {
+    height: 40em;
+    width: 40em;
+
+}
+
+.gridSquare {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: baseline;
+}
