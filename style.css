@@ -1,4 +1,25 @@
 
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.eraserDiv {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.eraser {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-style: solid;
+    padding: 10px;
+    background-color: pink;
+}
+
 .etch-a-sketch {
     display: flex;
     justify-content: center;
@@ -7,25 +28,40 @@
     border: 5px;
     border-style: dashed;
     padding: 10px;
-    margin: 100px;
+    margin: 50px;
 }
 
 .grid {
-    height: 40em;
-    width: 40em;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px;
+    border-style: solid;
 }
 
 .gridSquare {
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-    width: 20px;
-    height: 20px;
     background-color: white;
+    flex: 1 1 max-content;
 }
 
 .row {
     display: flex;
-    justify-content: baseline;
+}
+
+.colorDiv {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.color {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-style: solid;
+    padding: 10px;
+    background-color: lightblue;
 }
